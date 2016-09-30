@@ -1,0 +1,7 @@
+30/09/2016 . Levantando Ambiente de Desenvolvimento : Jeremias Silva
+
+
+O que já foi feito:
+
+1 - Programas : virtualbox + complemento, Git Bash, Cone Mu, Sublim text
+                vagrant, ubuntu/trusty64,git hub.
