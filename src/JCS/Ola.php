@@ -11,6 +11,6 @@ class Ola
 {
    public static function mundo(){
       
-       echo "Olá Mundo!";
+       echo "Olá Mundo....";
    }
 }
