@@ -4,8 +4,8 @@
                     <ul><!-- Exemplo de acesso interno de navegação-->
                          <li><a href="index.php">Home</a></li> <!--Lembrando que esse sinal de ? é o mesmo que uma função com parametro!! -->
                          <li><a href="index.php?page=produtos">Produtos</a></li><!--Então! Ler-se assim! -->
-                         <!-- <li><a href="index.php?page=#">#</a></li>
-                         <li><a href="index.php?page=#">#</a></li>
+                         <li><a href="index.php?page=novo_produto">Nova Pizza</a></li>
+                       <!--  <li><a href="index.php?page=#">#</a></li>
                          <li><a href="index.php?page=#">#</a></li>
                          <li><a href="index.php?page=#">#</a></li> -->
                          <!--

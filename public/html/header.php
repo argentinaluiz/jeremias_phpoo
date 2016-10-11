@@ -12,7 +12,7 @@
         <div id="estrutura">
 
             <div id="topo">
-                <h1>Food Menu</h1>
+                <h1>Pizzaria D'Italia</h1>
             </div>
 
             <div class="clearfix"></div>
