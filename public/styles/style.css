@@ -21,7 +21,7 @@ hr {display: none;}
 
 #estrutura {width: 985px; margin: 20px auto; }
 
-#topo h1 {margin-right: 100px; width: 157px; height: 44px;font-size: 28px;color: #5d87c7;}
+#topo h1 {margin-right: 100px; width: 157px; height: 24px;font-size: 20px;color: #5d87c7;}
 #topo h2 {font-size: 16px; line-height: 30px; letter-spacing: 2px; color: #5d87c7;}
 
 #menu-horizontal ul {list-style: none;height: 30px;line-height: 30px;margin-top: 10px;}
