@@ -1,19 +1,14 @@
 /*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
+  Copyright (c) 2008, Yahoo! Inc. All rights reserved.
+  Code licensed under the BSD License:
+  http://developer.yahoo.net/yui/license.txt
+  version:2.5.0
+  reset, fonts, and base
 */
-/* 
-    Created on : 10/10/2016, 17:44:28
-    Author     : jerem
-*/
-
 
 html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym {border:0;font-variant:normal;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}
 body {font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}table {font-size:inherit;font:100%;}pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}
 h1,h2,h3,h4,h5,h6,strong{font-weight:bold;}abbr,acronym{border-bottom:1px dotted #000;cursor:help;} em{font-style:italic;}blockquote,ul,ol,dl{margin:0 0 20px;}ol,ul,dl{margin-left:35px;}ol li{list-style:decimal outside;}ul li{list-style:disc outside;}dl dd{margin-left:20px;}th,td{padding:5px;}th{font-weight:bold;}caption{margin-bottom:5px;text-align:center;}
-
-/*driv do crud */
 
 
 ul {margin: 0; padding: 0}
@@ -26,7 +21,7 @@ hr {display: none;}
 
 #estrutura {width: 985px; margin: 20px auto; }
 
-#topo h1 {margin-right: 100px; width: 157px; height: 24px;font-size: 20px;color: #5d87c7;}
+#topo h1 {margin-right: 100px; width: 157px; height: 44px;font-size: 28px;color: #5d87c7;}
 #topo h2 {font-size: 16px; line-height: 30px; letter-spacing: 2px; color: #5d87c7;}
 
 #menu-horizontal ul {list-style: none;height: 30px;line-height: 30px;margin-top: 10px;}
@@ -48,4 +43,5 @@ hr {display: none;}
 
 #footer {margin-top: 10px;}
 #footer p {text-align: center;}
+
 
