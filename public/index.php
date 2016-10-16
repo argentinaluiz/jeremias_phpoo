@@ -5,8 +5,7 @@ require_once __DIR__.  "/../vendor/autoload.php";
 require_once '../public/html/header.php';
 require_once '../public/html/menu.php';
 
-//include_once '../src/JCS/Ola.php';
-//JCS\Ola::mundo();
+
 ?>
 
                                      

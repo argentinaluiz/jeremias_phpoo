@@ -7,7 +7,7 @@
  */
 
 try {
-    $conexao_db = new \PDO("mysql:host=localhost;dbname=pizzaria_italia", "root", "root");
+    $conexao_db = new \PDO("mysql:host=localhost;dbname=pizzaria_italiana", "root", "root");
 } catch (PDOException $exc) {
     //echo $exc->getTraceAsString();
     echo "Não foi possivel realizar a conexão com o banco de dados!" .$exc->getMessage(), $exc->getCode(), $exc->getLine();
