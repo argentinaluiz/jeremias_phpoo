@@ -3,10 +3,6 @@
 
 require_once '../src/JCS/Banco.php';
 require_once '../src/JCS/Produtos.php';
-
-
-
-
 if(!empty($_POST)){
     
     if(isset($_POST['Novo'])){
@@ -32,6 +28,3 @@ if(!empty($_POST)){
    */ 
     }
 }
-
-        
-
