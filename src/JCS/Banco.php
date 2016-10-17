@@ -26,6 +26,32 @@ class Banco {
     }
     
     
+    /*TODO* Listar Por Nome*/
+    public function listarPN($nome) {
+        
+        $query = "select * from produtos where nome='$nome'";
+        $stmt = $this->db->query($query);
+               
+        $stmt->bindValue('nome',$nome, \PDO::PARAM_STR);
+        
+        $stmt->execute();
+                
+        while ($resultado = $stmt->fetch(\PDO::FETCH_ASSOC)) {
+            
+            $auxid = $resultado['id'];
+            $auxnome = $resultado['nome'];
+            $auxdescricao = $resultado['descricao'];
+            
+            echo'   <table>'
+            . '<tr><td>Nome  :' . $auxid. '</td></tr>'
+                    . '<tr><td>Nome  :' . $auxnome. '</td></tr>'
+                    . '<tr><td>Nome  :' . $auxdescricao. '</td></tr>'
+            . '</table>';
+           
+        }
+    }
+    
+    
     /*Lista de teste para o tratar pegando o valor da lista*/
     public function listar() {
         
