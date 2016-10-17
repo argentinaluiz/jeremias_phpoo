@@ -16,7 +16,7 @@ if(!empty($_POST)){
         $banco = new \JCS\Produtos(require_once '../src/JCS/conexao.php');
         
         $banco->inserir($aux_id, $aux_nome, $aux_descricao, $aux_criado, $aux_atual);
-        header("Location:index.php?page=produtos");
+       
    /*     
    echo '<table>'
    . '<tr>'

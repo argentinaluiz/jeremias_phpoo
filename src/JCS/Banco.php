@@ -116,6 +116,21 @@ class Banco {
                       
         }
     }
+    
+    
+    
+    public function deletar($id) {
+        $query = "delete  from produtos where id='$id' ";
+        
+        $stmt = $this->db->prepare($query);
+        
+        $stmt->bindValue("id", $id, \PDO::PARAM_INT);
+        //$stmt->bindValue("nome", $nome, \PDO::PARAM_STR);
+        
+        $stmt->execute();
+        header("Location:index.php?page=produtos");
+        
+    }
 }   
 
 
